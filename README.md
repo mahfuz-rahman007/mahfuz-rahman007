@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Full Stack Developer
 --------------------
 
-I've been coding since my college days. Started writing my first Html on mobile. I have 2+ years of professional experience in Both Backend and Frontend Development. My main expertise are Php/Laravel, Vue/Nuxt, Mysql, Redis, and MongoDB. I worked on ERP projects, Multivendor e-commerce, Course Management, Content Selling, Newspaper, Multipurpose Business, and many more.
+I've been coding since my college days. Started writing my first Html on mobile. I have 3+ years of professional experience in Both Backend and Frontend Development. My main expertise are Php/Laravel, Vue/Nuxt, Mysql, Redis, and MongoDB. I worked on ERP projects, Multivendor e-commerce, Course Management, Content Selling, Newspaper, Multipurpose Business, and many more.
 
 * 🌍  I'm based in Dhaka, Bangladesh
 * ✉️  You can contact me at [mahfuz0rahman00@gmail.com](mailto:mahfuz0rahman00@gmail.com)
