@@ -59,12 +59,12 @@ The usual all-in-one GitHub stat cards undercount some of my activity, so this s
 ### Contribution snapshot
 
 <!-- metrics:auto:start -->
-- **96 pull requests opened**
-- **27 issues opened**
-- **95 pull request contributions**
-- **25 pull request reviews**
-- **1027 total contributions in the current contribution calendar**
-- **36 merged PRs in xCloud**
+- **5 pull requests opened**
+- **0 issues opened**
+- **5 pull request contributions**
+- **0 pull request reviews**
+- **1028 total contributions in the current contribution calendar**
+- **0 merged PRs in xCloud**
 - **3 merged PRs in Laravel open source**
 <!-- metrics:auto:end -->
 
