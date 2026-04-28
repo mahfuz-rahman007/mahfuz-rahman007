@@ -58,13 +58,15 @@ The usual all-in-one GitHub stat cards undercount some of my activity, so this s
 
 ### Contribution snapshot
 
+<!-- metrics:auto:start -->
 - **96 pull requests opened**
 - **27 issues opened**
 - **95 pull request contributions**
 - **25 pull request reviews**
-- **1025 total contributions in the current contribution calendar**
+- **1026 total contributions in the current contribution calendar**
 - **30 merged PRs in xCloud**
 - **3 merged PRs in Laravel open source**
+<!-- metrics:auto:end -->
 
 <p>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahfuz-rahman007&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
