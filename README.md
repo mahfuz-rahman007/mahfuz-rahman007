@@ -67,6 +67,16 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mahfuz-rahman007&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
 </p>
 
+## Open source highlights
+
+One of the cooler recent milestones: I got **3 pull requests merged into Laravel open source**.
+
+- ✅ [laravel/docs#11174](https://github.com/laravel/docs/pull/11174) — documented `min_ratio`, `max_ratio`, and `ratioBetween` image dimension constraints
+- ✅ [laravel/framework#59875](https://github.com/laravel/framework/pull/59875) — fixed a PHPDoc typo in `MigrationRepositoryInterface`
+- ✅ [laravel/framework#59876](https://github.com/laravel/framework/pull/59876) — fixed the `getMigrationBatches` return type annotation
+
+It’s a small thing on paper, but it matters to me: contributing to Laravel means contributing to tools used by a ridiculous number of real developers.
+
 ## Featured work
 
 - 🔧 [**Device Sandbox Simulator**](https://github.com/mahfuz-rahman007/device-sandbox-simulator) — Laravel + React full-stack app for building and testing device configurations through an interactive UI
