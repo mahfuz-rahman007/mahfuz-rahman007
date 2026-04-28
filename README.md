@@ -54,8 +54,6 @@
 
 ## GitHub pulse
 
-I removed the numeric contribution snapshot here because GitHub Actions' default token underreports parts of my real activity. Better no fake numbers than pretty lies.
-
 <p>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahfuz-rahman007&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
   <img height="170" src="https://streak-stats.demolab.com?user=mahfuz-rahman007&theme=tokyonight&hide_border=true" alt="GitHub streak stats" />
