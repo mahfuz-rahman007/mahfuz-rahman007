@@ -63,8 +63,8 @@ The usual all-in-one GitHub stat cards undercount some of my activity, so this s
 - **27 issues opened**
 - **95 pull request contributions**
 - **25 pull request reviews**
-- **1026 total contributions in the current contribution calendar**
-- **30 merged PRs in xCloud**
+- **1027 total contributions in the current contribution calendar**
+- **36 merged PRs in xCloud**
 - **3 merged PRs in Laravel open source**
 <!-- metrics:auto:end -->
 
@@ -87,33 +87,9 @@ One of the cooler recent milestones: I got **3 pull requests merged into Laravel
 
 It’s a small thing on paper, but it matters to me: contributing to Laravel means contributing to tools used by a ridiculous number of real developers.
 
-## Featured work
-
-- 🔧 [**Device Sandbox Simulator**](https://github.com/mahfuz-rahman007/device-sandbox-simulator) — Laravel + React full-stack app for building and testing device configurations through an interactive UI
-- 🌐 [**Portfolio Website**](https://mahfuzrahman.com) — Astro-based personal site focused on product engineering, writing, projects, and performance-first presentation
-- ✂️ [**URL Shortener**](https://github.com/mahfuz-rahman007/url-shortner) — Laravel app with authentication and URL analytics
-- ☁️ [**xCloud Templates**](https://github.com/mahfuz-rahman007?tab=repositories&q=xcloud-template) — deployment-oriented service templates for platforms like PostgreSQL, Redis, MongoDB, Chatwoot, and more
-
-## What I care about when building software
-
-- clean backend architecture that survives real product growth
-- performance work that users actually feel
-- shipping full-stack features without treating frontend like an afterthought
-- CI/CD, containers, and deployment workflows that reduce chaos instead of adding ceremony
-- writing code that another engineer can read without needing spiritual guidance
-
 ## Writing & learning in public
 
-I use writing as a way to sharpen engineering clarity.
-
-A few topics I write about:
-- Laravel queue internals
-- MySQL full-text search
-- Docker-based Laravel deployment
-- GitHub Actions workflows
-- practical performance and backend implementation notes
-
-👉 Read on **[DEV Community](https://dev.to/devmahfuz)**
+I write short practical notes on Laravel internals, search, deployment, and backend engineering. Read them on **[DEV Community](https://dev.to/devmahfuz)**.
 
 ## Open to
 

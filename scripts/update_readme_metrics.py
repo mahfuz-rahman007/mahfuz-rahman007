@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import json
 import os
-import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -39,13 +38,6 @@ def graphql(query: str) -> dict:
     return response["data"]
 
 
-def search_pr_count(query: str) -> int:
-    encoded = urllib.parse.quote(query)
-    url = f"https://api.github.com/search/issues?q={encoded}&per_page=1"
-    response = github_request(url)
-    return int(response.get("total_count", 0))
-
-
 def build_metrics_block() -> str:
     data = graphql(
         f'''
@@ -61,6 +53,13 @@ def build_metrics_block() -> str:
                 totalContributions
               }}
             }}
+            mergedPullRequests: pullRequests(first: 100, states: MERGED, orderBy: {{field: UPDATED_AT, direction: DESC}}) {{
+              nodes {{
+                repository {{
+                  nameWithOwner
+                }}
+              }}
+            }}
           }}
         }}
         '''
@@ -68,8 +67,9 @@ def build_metrics_block() -> str:
 
     user = data["user"]
     contributions = user["contributionsCollection"]
-    xcloud_merged = search_pr_count(f"repo:xCloudDev/xCloud is:pr is:merged author:{USERNAME}")
-    laravel_merged = search_pr_count(f"org:laravel is:pr is:merged author:{USERNAME}")
+    merged_nodes = user["mergedPullRequests"]["nodes"]
+    xcloud_merged = sum(1 for pr in merged_nodes if pr["repository"]["nameWithOwner"] == "xCloudDev/xCloud")
+    laravel_merged = sum(1 for pr in merged_nodes if pr["repository"]["nameWithOwner"].startswith("laravel/"))
 
     lines = [
         START_MARKER,
