@@ -54,19 +54,7 @@
 
 ## GitHub pulse
 
-The usual all-in-one GitHub stat cards undercount some of my activity, so this section uses a cleaner mix: real verified contribution numbers plus language and activity visuals.
-
-### Contribution snapshot
-
-<!-- metrics:auto:start -->
-- **5 pull requests opened**
-- **0 issues opened**
-- **5 pull request contributions**
-- **0 pull request reviews**
-- **1028 total contributions in the current contribution calendar**
-- **0 merged PRs in xCloud**
-- **3 merged PRs in Laravel open source**
-<!-- metrics:auto:end -->
+I removed the numeric contribution snapshot here because GitHub Actions' default token underreports parts of my real activity. Better no fake numbers than pretty lies.
 
 <p>
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mahfuz-rahman007&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
