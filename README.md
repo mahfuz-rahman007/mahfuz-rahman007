@@ -63,15 +63,51 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mahfuz-rahman007&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph" />
 </p>
 
-## Open source highlights
+## Laravel open source signal
 
-One of the cooler recent milestones: I got **3 pull requests merged into Laravel open source**.
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel%20OSS-6%20merged%20PRs-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="6 merged Laravel pull requests" />
+  <img src="https://img.shields.io/badge/Repos-framework%20%7C%20docs%20%7C%20ai-111827?style=for-the-badge&logo=github&logoColor=white" alt="Laravel repositories contributed to" />
+</p>
 
-- ✅ [laravel/docs#11174](https://github.com/laravel/docs/pull/11174) — documented `min_ratio`, `max_ratio`, and `ratioBetween` image dimension constraints
-- ✅ [laravel/framework#59875](https://github.com/laravel/framework/pull/59875) — fixed a PHPDoc typo in `MigrationRepositoryInterface`
-- ✅ [laravel/framework#59876](https://github.com/laravel/framework/pull/59876) — fixed the `getMigrationBatches` return type annotation
+<table>
+  <tr>
+    <td width="34%" align="center">
+      <strong>framework</strong><br/>
+      <sub>core type-safety + migration docs cleanup</sub><br/><br/>
+      <a href="https://github.com/laravel/framework/pull/59875">#59875</a> ·
+      <a href="https://github.com/laravel/framework/pull/59876">#59876</a>
+    </td>
+    <td width="33%" align="center">
+      <strong>docs</strong><br/>
+      <sub>documented image dimension ratio validation</sub><br/><br/>
+      <a href="https://github.com/laravel/docs/pull/11174">#11174</a>
+    </td>
+    <td width="33%" align="center">
+      <strong>ai</strong><br/>
+      <sub>PHPDoc + type declaration polish for Laravel AI</sub><br/><br/>
+      <a href="https://github.com/laravel/ai/pull/516">#516</a> ·
+      <a href="https://github.com/laravel/ai/pull/517">#517</a> ·
+      <a href="https://github.com/laravel/ai/pull/518">#518</a>
+    </td>
+  </tr>
+</table>
 
-It’s a small thing on paper, but it matters to me: contributing to Laravel means contributing to tools used by a ridiculous number of real developers.
+<details>
+  <summary><strong>View the merged PRs</strong> — tiny patches, real ecosystem surface area</summary>
+
+| Repo | Pull request | Impact |
+|---|---|---|
+| `laravel/framework` | [#59875](https://github.com/laravel/framework/pull/59875) | Fixed a PHPDoc typo in `MigrationRepositoryInterface` |
+| `laravel/framework` | [#59876](https://github.com/laravel/framework/pull/59876) | Corrected the `getMigrationBatches` return type annotation |
+| `laravel/docs` | [#11174](https://github.com/laravel/docs/pull/11174) | Documented `min_ratio`, `max_ratio`, and `ratioBetween` image dimension constraints |
+| `laravel/ai` | [#516](https://github.com/laravel/ai/pull/516) | Added a missing type hint to the `$quality` parameter in `defaultImageOptions` |
+| `laravel/ai` | [#517](https://github.com/laravel/ai/pull/517) | Added a missing parameter name in `EmbeddingsResponse` PHPDoc |
+| `laravel/ai` | [#518](https://github.com/laravel/ai/pull/518) | Added a missing type declaration to the `ToolResult::$result` property |
+
+</details>
+
+> I like small, precise contributions: the kind that reduce ambiguity for the next developer reading the code or docs at 2 AM. Not glamorous, but very Laravel.
 
 ## Writing & learning in public
 
